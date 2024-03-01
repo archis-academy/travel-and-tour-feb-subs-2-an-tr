@@ -1,0 +1,57 @@
+/* Harutyun Kalataş TR-8-Homepage-Explore-Section  Beginning of the page */
+
+.explore-page{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: white;
+       
+}
+.explore-nature{
+    width: 50%;
+    height: 400px;
+    background-image: url(../images/homepage-explore1.png);
+   
+    background-size: cover;
+    background-position: center;
+       
+}
+.explore-cities{
+    width: 50%;
+    height: 400px;
+    background-image: url(../images/homepage-explore2.png);
+    background-size: cover;
+    background-position: center;
+  
+}
+
+.explore{
+    margin: auto;
+    width: 45%;
+    padding: 6px;
+    position: relative;
+    top: 34% ;
+    display: block;
+    text-align: center;
+   }
+.explore-nature-cities{
+    font-weight: bold;
+    font-size: 50px;
+}
+.explore-promotion{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+.explore-link{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    border: 2px solid white;
+       width: 175px;
+    border-radius: 15px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@700&display=swap')
+
+/* Harutyun Kalataş TR-8-Homepage-Explore-Section End of the page */
