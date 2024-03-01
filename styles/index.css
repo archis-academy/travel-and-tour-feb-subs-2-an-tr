@@ -1,0 +1,43 @@
+/* <!-- Harutyun Kalataş TR-4-Homepage-Honeymoon-Specials  Beginning of the page  --> */
+.honeymoon-special-section {
+
+    max-width: 1500px;
+    height: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.hs-right-column{
+   width: 700px;
+
+
+}
+.hs-image{
+
+width: 700px;
+}
+
+.hs-rght-cta{
+    background-color:#FF7C4C ;
+    border-radius: 20px;
+    padding: 16px 20px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+           
+}
+.hs-right-title {
+    margin: 10px 0;   
+    
+    }
+.hs-right-subtitle{
+    font-family: "Poppins", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap')
+
+/* <!-- Harutyun Kalataş TR-4-Homepage-Honeymoon-Specials  End of the page  --> */
