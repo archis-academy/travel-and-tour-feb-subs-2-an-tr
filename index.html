@@ -7,54 +7,94 @@
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/shared.css" />
     <link rel="stylesheet" href="styles/header.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Sebile/Beginning of Homepage-Hero-Section  -->
-    <header>
+    <header id="page-2-home">
       <div class="image-container">
         <div class="top-Navbar">
           <img src="images/logo.png" id="travel-logo" alt="logo-image" />
           <nav class="navbar">
             <ul class="nav-list">
-              <li><a class="nav-list-item" href="#">Home</a></li>
-              <li><a class="nav-list-item" href="#">About</a></li>
-              <li><a class="nav-list-item" href="#">Services</a></li>
+              <li><a class="nav-list-item" href="#home">Home</a></li>
+              <li><a class="nav-list-item" href="#about">About</a></li>
+              <li>
+                <a class="nav-list-item" href="#services">Services</a>
+                <img src="./images/Vector-2.png" />
+              </li>
               <li>
                 <a class="nav-list-item" href="#">Upcomming Packages</a>
               </li>
             </ul>
           </nav>
-          <button class="btn-orange">Get in Touch</button>
+          <a href="#" class="btn-orange">Get in Touch</a>
         </div>
         <div class="context-container">
-          <img src="images/Vector-1.png" alt="vector-line" />
-          <h1>No matter where you’re going to, we’ll take you there</h1>
+          <img class="vector-1" src="images/Vector-1.png" alt="vector-line" />
+          <h1 class="homepage-title">
+            No matter where <br />you’re going to, we’ll <br />take you there
+          </h1>
           <div class="searching-tools">
             <ul>
-              <li>Where to? <img src="images/line.png" /></li>
-              <li>
-                Travel Type <img src="images/Vector.png" />
-                <img src="images/line.png" />
-              </li>
-
-              <li>Duration <img src="images/Vector.png" /></li>
+              <li>Where to?</li>
+              <img src="images/line.png" />
+              <li>Travel Type <img class="ok" src="images/Vector.png" /></li>
+              <img src="images/line.png" />
+              <li>Duration <img class="ok" src="images/Vector.png" /></li>
+              <li><button class="btn-submit">Submit</button></li>
             </ul>
-            <button class="btn-orange submit"></button>
           </div>
           <div class="clients">
-            <div class="images">
-              <img src="images/user-avatar1.png" alt="client-1" />
-              <img src="images/user-avatar2.png" alt="client-2" />
-              <img src="images/user-avatar3.png" alt="client-3" />
-              <img src="images/user-avatar4.png" alt="client-4" />
-              <img src="images/user-avatar5.png" alt="client-5" />
-              <img src="images/user-avatar6.png" alt="client-6" />
-              <img src="images/user-avatar-emty.png" />
+            <div class="clientImages">
+              <div id="avatar-1">
+                <img src="images/user-avatar1.png" alt="client-1" />
+              </div>
+              <img
+                class="avatars"
+                src="images/user-avatar2.png"
+                alt="client-2"
+              />
+              <img
+                class="avatars"
+                src="images/user-avatar3.png"
+                alt="client-3"
+              />
+              <img
+                class="avatars"
+                src="images/user-avatar4.png"
+                alt="client-4"
+              />
+              <img
+                class="avatars"
+                src="images/user-avatar5.png"
+                alt="client-5"
+              />
+              <img
+                class="avatars"
+                src="images/user-avatar6.png"
+                alt="client-6"
+              />
+              <div class="avatars" id="empty-avatar">
+                <img src="images/user-avatar-emty.png" />
+                <p>+</p>
+              </div>
             </div>
             <p>2,500 people booked Tommorowland Event in last 24 hours</p>
           </div>
         </div>
+        <div class="rectangleLines">
+          <a id="line-1" href="#page-1">___</a>
+          <a id="line-2" href="#page-2-home">___</a>
+          <a id="line-3" href="#page-3">___</a>
+        </div>
       </div>
+      <img id="scroll" src="images/scroll.png" alt="scroll-picture" />
     </header>
 
     <!-- Sebile/End of Homepage-Hero-Section -->
