@@ -1,0 +1,48 @@
+.services-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title-head-small{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #DF6951;
+    margin-bottom: 20px;
+
+}
+
+.title-head-big{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Volkhov", serif;
+    color: #181E4B;
+}
+
+.title-service-head{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #1E1D4C;
+    margin-bottom: 12px;
+
+}
+
+.title-service-info{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #5E6282;
+}
+
+.services-flexbox{
+    display: flex;
+    flex-direction: row;
+}
+
+.services-flexbox >div{
+    max-width: 200px;
+}
+
