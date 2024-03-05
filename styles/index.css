@@ -6,7 +6,7 @@
 }
 
 .books-title {
-  color: #181E4B;
+  color: #181e4b;
   font-weight: 700;
   font-family: "Volkhov", serif;
   font-size: 50px;
@@ -35,25 +35,19 @@
 }
 .books-text {
   display: flex;
- color: #5E6282;
+  color: #5e6282;
   flex-direction: column;
   font-family: "Poppins", sans-serif;
-
 }
 
-.books-text-title{
-
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-
+.books-text-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
 }
 
-.books-text-paragraph{
-
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-
-
+.books-text-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }
