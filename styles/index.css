@@ -1,43 +1,48 @@
 /* <!-- Harutyun Kalataş TR-4-Homepage-Honeymoon-Specials  Beginning of the page  --> */
+
 .honeymoon-special-section {
-
-    max-width: 1500px;
-    height: auto; 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
+  max-width: 1300px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px auto;
+  flex-wrap: wrap;
 }
 
-.hs-right-column{
-   width: 700px;
-
-
+.hs-right-column {
+  width: 600px;
+  font-family: "Volkhov", serif;
 }
-.hs-image{
-
-width: 700px;
+.hs-image {
+  width: 600px;
 }
 
-.hs-rght-cta{
-    background-color:#FF7C4C ;
-    border-radius: 20px;
-    padding: 16px 20px;
-    display: inline-block;
-    color: white;
-    font-weight: bold;
-    font-family: "Poppins", sans-serif;
-    margin-top: 20px;
-           
+.hs-rght-cta {
+  background-color: #df6951;
+  border-radius: 20px;
+  padding: 16px 20px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  margin-top: 18px;
 }
 .hs-right-title {
-    margin: 10px 0;   
-    
-    }
-.hs-right-subtitle{
-    font-family: "Poppins", sans-serif;
+  margin: 10px 0;
+  font-size: 50px;
+  font-family: "Volkhov", serif;
+}
+.hs-right-subtitle {
+  font-family: "Poppins", sans-serif;
+  color: #df6951;
+  font-size: 18px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap')
+.hs-right-description {
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+}
 
 /* <!-- Harutyun Kalataş TR-4-Homepage-Honeymoon-Specials  End of the page  --> */
