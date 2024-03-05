@@ -1,64 +1,72 @@
-.services-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+* {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
-.title-head-small{
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    color: #DF6951;
-    margin-bottom: 20px;
-    text-align: center;
-    
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* CHANGING JUSTIFY CONTENT DOES NOT AFFECT ANYTHING */
+  align-items: center;
 }
 
-.title-head-big{
-    font-size: 44px;
-    font-weight: 700;
-    font-family: "Volkhov", serif;
-    color: #181E4B;
-    text-align: center;
+.title-head-small {
+  font-size: 18px;
+  font-weight: 600;
+  color: #df6951;
+  margin-bottom: 20px;
 }
 
-.title-service-head{
-    font-size: 20px;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    color: #1E1D4C;
-    margin-bottom: 12px;
-    text-align: center;
-
+.title-head-big {
+  font-size: 44px;
+  font-weight: 700;
+  font-family: "Volkhov", serif;
+  color: #181e4b;
 }
 
-.title-service-info{
-    font-size: 16px;
-    font-weight: 500;
-    font-family: "Poppins", sans-serif;
-    color: #5E6282;
-    text-align: center;
-    max-width: 20ch;
+.title-service-head {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e1d4c;
+  margin-bottom: 12px;
 }
 
-.services-flexbox{
-    display: flex;
-    flex-direction: row;
-    margin: 52PX auto 0px auto;
-    gap: 20px;
-    justify-content: center;
-    /* HOW TO MAKE THE GAP RESPONSIVE */
+.title-service-info {
+  font-size: 16px;
+  font-weight: 500;
+  color: #5e6282;
+  max-width: 20ch;
 }
 
-.services-flexbox >div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.services-flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 20px;
+  justify-content: center;
 }
 
-.services-flexbox >div>img{
-    max-height: 72px;
-    margin-bottom: 20px;
+.services-flexbox > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+#services-plane {
+  padding: 0px 25px 35px 25px;
+  box-shadow:
+    0px 1.852px 3.148px 0px rgba(0, 0, 0, 0),
+    0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01),
+    0px 20px 13px 0px rgba(0, 0, 0, 0.01),
+    0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01),
+    0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02),
+    0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+  border-radius: 20%;
+}
+
+.services-flexbox > div > img {
+  max-height: 72px;
+  margin-bottom: 20px;
+}
