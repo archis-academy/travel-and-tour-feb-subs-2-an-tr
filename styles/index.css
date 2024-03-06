@@ -1,0 +1,57 @@
+.europe-sightseeing-tours {
+  max-width: 1300px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px auto;
+  flex-wrap: wrap;
+}
+
+.europe-sightseeing-tours {
+  position: relative;
+  gap: 40px;
+}
+
+.es-left-cta {
+  background-color: #df6951;
+  border-radius: 20px;
+  padding: 16px 20px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  margin-top: 40px;
+}
+.es-left-title {
+  margin: 20px 0;
+  font-size: 50px;
+  font-family: "Volkhov", serif;
+}
+.es-left-subtitle {
+  font-family: "Poppins", sans-serif;
+  color: #df6951;
+  font-size: 18px;
+}
+
+.es-left-description {
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+  width: 600px;
+}
+
+.es-destinations {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 60px;
+  margin-top: 60px;
+}
+.eifel-dest {
+  position: absolute;
+  z-index: -1;
+  right: -210px;
+  bottom: -65px;
+  object-fit: scale-down;
+}
