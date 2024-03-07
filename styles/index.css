@@ -1,0 +1,27 @@
+.liberty-container {
+
+    position: relative;
+    
+  }
+  
+  .back-image {
+    position: absolute;
+    
+  }
+  
+  .in-image {
+    padding-top: 260px;
+    padding-left: 710px;
+    position: absolute;
+  }
+  
+  .liberty-text {
+    font-size: 50px;
+    line-height: 64.5px;
+    position: relative;
+    padding-left: 388px;
+    padding-top: 130px;
+    color: white;
+    font-family: Volkhov;
+  }
+  
