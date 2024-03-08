@@ -1,0 +1,116 @@
+.footer-all {
+  display: flex;
+  margin-top: 70px;
+  gap: 90px;
+  justify-content: center;
+}
+
+.travel-text {
+  font-size: 31.62px;
+  font-family: "Volkhov", serif;
+  position: relative;
+  line-height: 40px;
+}
+
+.travel-logo {
+  margin-top: -35px;
+}
+
+.travel-paragraph {
+  color: #757095;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Manrope", serif;
+}
+
+.social-icon {
+  margin-top: 25px;
+}
+
+.company-title {
+  font-size: 21px;
+  line-height: 24px;
+  font-family: "Manrope", serif;
+  color: #181433;
+  margin-bottom: 20px;
+}
+
+.company-list {
+  font-family: "Manrope", serif;
+  color: #181433;
+  margin-top: 20px;
+}
+
+.company-list li {
+  margin-bottom: 20px;
+}
+
+.destinations-title {
+  font-size: 21px;
+  line-height: 24px;
+  font-family: "Manrope", serif;
+  color: #181433;
+  margin-bottom: 20px;
+}
+
+.destinations-list {
+  font-family: "Manrope", serif;
+  color: #181433;
+  margin-top: 20px;
+}
+
+.destinations-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #181433;
+}
+
+.newsletter-section {
+  line-height: 24px;
+  font-family: "Manrope", serif;
+  color: #181433;
+  margin-bottom: 20px;
+}
+
+.newsletter-text {
+  margin-top: 20px;
+  font-size: 21px;
+}
+
+.email-type {
+  background-color: #eeeeff;
+  padding: 15px;
+  width: 250px;
+  position: absolute;
+  margin-top: 20px;
+  border: none;
+}
+
+input::placeholder {
+  opacity: 0.4;
+  font-family: "Manrope", serif;
+}
+
+.button-type {
+  display: inline-block;
+  padding: 10px 32px;
+  margin-top: 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #df6951;
+  position: relative;
+  margin-left: 220px;
+  font-family: "Manrope", serif;
+  line-height: 26px;
+}
+
+.send-text {
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 15px;
+  font-family: "Manrope", serif;
+  color: #181433;
+}
