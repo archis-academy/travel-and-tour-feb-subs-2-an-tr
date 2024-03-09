@@ -11,6 +11,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  width: 100vw;
   margin-bottom: 200px;
 }
 
@@ -58,12 +59,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40%;
+  width: 600px;
   background-color: #ffffff;
   margin-top: 95px;
   margin-bottom: 100px;
   border-radius: 17px;
-  min-width: 400px;
+  
 }
 
 #testimonial-text {
@@ -121,5 +122,9 @@
   }
   #shell-pic {
     max-width: 130px;
+  }
+
+  .testimonial-div{
+    width: 70%;
   }
 }
