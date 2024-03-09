@@ -20,6 +20,7 @@
   font-weight: 600;
   color: #df6951;
   margin-bottom: 20px;
+  z-index: 2;
 }
 
 .title-head-big {
@@ -39,23 +40,30 @@
 
 #shell-pic{
   position: absolute;
-  left: 15%;
-  top: -90px;
+  left: 10%;
+  transform: translateY(-5rem);
   z-index: 0;
+  width: 180px;
+
 }
 
 #pic-pic{
   position: absolute;
   right: 8%;
   top: -90px;
+  width: 180px;
 }
 
 .testimonial-div{
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 40%;
   background-color: #ffffff;
   margin-top: 95px;
   border-radius: 17px;
+  min-width: 400px;
 }
 
 #testimonial-text{
@@ -67,8 +75,7 @@
 
 .testimony-face{
   position: absolute;
-  top: -74px;
-  right: 190px
+  top: -80px;
   /* right: calc(100vw * 0.4)/2; this should work */
   /* WHEN REMOVING THE VALUES, THE ABSOLUTE ELEMENT DOES NOT START AT THE TOP LEFT?? */
 }
@@ -81,3 +88,15 @@
   /* also not working. before */
 }
 
+
+
+
+@media (max-width: 900px){
+  #pic-pic{
+    max-width: 130px;
+  } 
+  #shell-pic{
+    max-width: 130px;
+
+  } 
+}
