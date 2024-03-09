@@ -2,3 +2,82 @@
     font-family: "Poppins", sans-serif;
     text-align: center;
   }
+
+  
+.container{
+  background-color: #F8F8F8;
+  margin-top: 200px;
+  /* REDUCE THIS TOP MARGIN LATER */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.title-head-small {
+  margin-top: 37px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #df6951;
+  margin-bottom: 20px;
+}
+
+.title-head-big {
+  font-size: 44px;
+  font-weight: 700;
+  font-family: "Volkhov", serif;
+  color: #181e4b;
+  max-width: 24ch;
+  z-index: 1;
+}
+
+#hat-pic{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+#shell-pic{
+  position: absolute;
+  left: 15%;
+  top: -90px;
+  z-index: 0;
+}
+
+#pic-pic{
+  position: absolute;
+  right: 8%;
+  top: -90px;
+}
+
+.testimonial-div{
+  position: relative;
+  width: 40%;
+  background-color: #ffffff;
+  margin-top: 95px;
+  border-radius: 17px;
+}
+
+#testimonial-text{
+  padding: 92px 72px 13px;
+}
+#author-name{
+  padding-bottom: 33px;
+}
+
+.testimony-face{
+  position: absolute;
+  top: -74px;
+  right: 190px
+  /* right: calc(100vw * 0.4)/2; this should work */
+  /* WHEN REMOVING THE VALUES, THE ABSOLUTE ELEMENT DOES NOT START AT THE TOP LEFT?? */
+}
+
+#testimonial-text:before {
+  content: url('/images/testimonial-box-quotes.png');
+  position: absolute;
+  top: 70px;
+  left: 30px;
+  /* also not working. before */
+}
+
