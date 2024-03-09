@@ -1,5 +1,4 @@
 * {
-  font-family: "Poppins", sans-serif;
   text-align: center;
 }
 
@@ -22,6 +21,7 @@
   color: #df6951;
   margin-bottom: 20px;
   z-index: 2;
+  font-family: "Poppins", sans-serif;
 }
 
 .title-head-big {
@@ -68,9 +68,12 @@
 
 #testimonial-text {
   padding: 92px 72px 13px;
+  font-family: "Poppins", sans-serif;
 }
 #author-name {
   padding-bottom: 33px;
+  font-family: "Poppins", sans-serif;
+
 }
 
 .testimony-face {
