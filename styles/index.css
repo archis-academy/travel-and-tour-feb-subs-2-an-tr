@@ -1,11 +1,10 @@
 * {
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-  }
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
 
-  
-.container{
-  background-color: #F8F8F8;
+.container {
+  background-color: #f8f8f8;
   margin-top: 200px;
   /* REDUCE THIS TOP MARGIN LATER */
   display: flex;
@@ -32,29 +31,28 @@
   z-index: 1;
 }
 
-#hat-pic{
+#hat-pic {
   position: absolute;
   left: 0px;
   bottom: 0px;
 }
 
-#shell-pic{
+#shell-pic {
   position: absolute;
   left: 10%;
   transform: translateY(-5rem);
   z-index: 0;
   width: 180px;
-
 }
 
-#pic-pic{
+#pic-pic {
   position: absolute;
   right: 8%;
   top: -90px;
   width: 180px;
 }
 
-.testimonial-div{
+.testimonial-div {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -66,37 +64,55 @@
   min-width: 400px;
 }
 
-#testimonial-text{
+#testimonial-text {
   padding: 92px 72px 13px;
 }
-#author-name{
+#author-name {
   padding-bottom: 33px;
 }
 
-.testimony-face{
+.testimony-face {
   position: absolute;
   top: -80px;
-  /* right: calc(100vw * 0.4)/2; this should work */
-  /* WHEN REMOVING THE VALUES, THE ABSOLUTE ELEMENT DOES NOT START AT THE TOP LEFT?? */
 }
 
 #testimonial-text:before {
-  content: url('/images/testimonial-box-quotes.png');
+  content: url("/images/testimonial-box-quotes.png");
   position: absolute;
   top: 70px;
   left: 30px;
-  /* also not working. before */
+  /*  not working. before 
+  can this work with before ?*/
+}
+
+#button-left-icon
+{
+  position: absolute;
+  left:-40px;
+  top: 100px;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #6b6b6b;
+}
+
+#button-right-icon
+{
+  position: absolute;
+  right: -40px;
+  top: 100px;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #6b6b6b;
 }
 
 
-
-
-@media (max-width: 900px){
-  #pic-pic{
+@media (max-width: 900px) {
+  #pic-pic {
     max-width: 130px;
-  } 
-  #shell-pic{
+  }
+  #shell-pic {
     max-width: 130px;
-
-  } 
+  }
 }
