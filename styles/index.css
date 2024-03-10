@@ -31,43 +31,23 @@
   color: #181e4b;
   max-width: 24ch;
   z-index: 1;
+  padding: 10px;
 }
 
-#hat-pic {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-}
-
-#shell-pic {
-  position: absolute;
-  left: 10%;
-  transform: translateY(-5rem);
-  z-index: 0;
-  width: 180px;
-}
-
-#pic-pic {
-  position: absolute;
-  right: 8%;
-  top: -90px;
-  width: 180px;
-}
 
 .testimonial-div {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 600px;
+  width: clamp(300px, 50%, 600px);
   background-color: #ffffff;
   margin-top: 95px;
   border-radius: 17px;
-  
 }
 
 #testimonial-text {
-  padding: 92px 72px 13px;
+  padding: 92px 62px 13px;
   font-family: "Poppins", sans-serif;
 }
 #author-name {
@@ -99,7 +79,6 @@
   height: 70px;
   border-radius: 100%;
   background-color: #6b6b6b;
-  object-fit:fill;
   padding: 20px;
 }
 
@@ -112,7 +91,6 @@
   height: 70px;
   border-radius: 100%;
   background-color: #6b6b6b;
-  object-fit: contain;
   padding: 20px;
   
 }
@@ -131,15 +109,43 @@
   color: #df6951;
 }
 
+
+#hat-pic {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+#shell-pic {
+  position: absolute;
+  left: 10%;
+  transform: translateY(-5rem);
+  z-index: 0;
+  /* width: 180px; */
+  width: clamp(130px,20%,180px);
+}
+
+#pic-pic {
+  position: absolute;
+  right: 8%;
+  top: -90px;
+  /* width: 180px; */
+  width: clamp(130px,20%,180px);
+
+}
+
+/*  
 @media (max-width: 900px) {
   #pic-pic {
     max-width: 130px;
   }
   #shell-pic {
     max-width: 130px;
+    transform: translateY(-4rem);
+
   }
 
   .testimonial-div{
     width: 70%;
   }
-}
+}*/
