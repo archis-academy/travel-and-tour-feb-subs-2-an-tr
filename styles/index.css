@@ -34,7 +34,6 @@
   padding: 10px;
 }
 
-
 .testimonial-div {
   position: relative;
   display: flex;
@@ -53,7 +52,6 @@
 #author-name {
   padding-bottom: 33px;
   font-family: "Poppins", sans-serif;
-
 }
 
 .testimony-face {
@@ -66,14 +64,11 @@
   position: absolute;
   top: 70px;
   left: 30px;
-  /*  not working. before 
-  can this work with before ?*/
 }
 
-#button-left-icon
-{
+#button-left-icon {
   position: absolute;
-  left:-35px;
+  left: -35px;
   top: 100px;
   width: 70px;
   height: 70px;
@@ -82,8 +77,7 @@
   padding: 20px;
 }
 
-#button-right-icon
-{
+#button-right-icon {
   position: absolute;
   right: -35px;
   top: 100px;
@@ -92,23 +86,20 @@
   border-radius: 100%;
   background-color: #6b6b6b;
   padding: 20px;
-  
 }
 
-.rectangle-lines{
+.rectangle-lines {
   padding-top: 33px;
   padding-bottom: 66px;
   color: #181e4b;
 
   max-width: 1300px;
   margin: 0 auto;
-  
 }
 
-#testimonial-line-2{
+#testimonial-line-2 {
   color: #df6951;
 }
-
 
 #hat-pic {
   position: absolute;
@@ -121,31 +112,12 @@
   left: 10%;
   transform: translateY(-5rem);
   z-index: 0;
-  /* width: 180px; */
-  width: clamp(130px,20%,180px);
+  width: clamp(130px, 20%, 180px);
 }
 
 #pic-pic {
   position: absolute;
   right: 8%;
   top: -90px;
-  /* width: 180px; */
-  width: clamp(130px,20%,180px);
-
+  width: clamp(130px, 20%, 180px);
 }
-
-/*  
-@media (max-width: 900px) {
-  #pic-pic {
-    max-width: 130px;
-  }
-  #shell-pic {
-    max-width: 130px;
-    transform: translateY(-4rem);
-
-  }
-
-  .testimonial-div{
-    width: 70%;
-  }
-}*/
