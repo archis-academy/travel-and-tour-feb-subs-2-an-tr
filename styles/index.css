@@ -127,4 +127,11 @@
   .testimonial-div{
     width: 70%;
   }
+  .title-head-big{
+    font-size: 30px;
+  }
+
+  .title-head-small{
+    padding-top: 50px;
+  }
 }
