@@ -5,7 +5,6 @@
   justify-content: center;
   color: white;
   flex-wrap: wrap;
-  border: 5px solid green;
   height: auto;
 }
 .explore-nature {
@@ -19,7 +18,6 @@
   background-size: cover;
   background-position: center;
   font-size: 50px;
-  border: 5px solid red;
   flex: 1;
   display: flex;
   justify-content: center;
