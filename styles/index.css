@@ -122,16 +122,24 @@
   width: clamp(180px, 20%, 210px);
 }
 
-@media (max-width: 500px)
-{
-  .testimonial-div{
+@media (max-width: 500px) {
+  .testimonial-div {
     width: 70%;
   }
-  .title-head-big{
-    font-size: 30px;
+  .title-head-big {
+    font-size: 28px;
   }
 
-  .title-head-small{
+  .title-head-small {
     padding-top: 50px;
+  }
+
+  #shell-pic {
+    left: 10px;
+  }
+
+  #pic-pic {
+    position: absolute;
+    right: 10px;
   }
 }
