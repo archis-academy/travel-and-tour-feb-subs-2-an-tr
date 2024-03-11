@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.container {
+.testimonial-container {
   background-color: #f8f8f8;
   margin-top: 200px;
   /* REDUCE THIS TOP MARGIN LATER */
@@ -10,11 +10,11 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  width: 100vw;
+  width: 100%;
   margin-bottom: 200px;
 }
 
-.title-head-small {
+.testimonial-title-head-small {
   margin-top: 37px;
   font-size: 18px;
   font-weight: 600;
@@ -24,7 +24,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.title-head-big {
+.testimonial-title-head-big {
   font-size: 44px;
   font-weight: 700;
   font-family: "Volkhov", serif;
@@ -49,7 +49,7 @@
   padding: 92px 62px 13px;
   font-family: "Poppins", sans-serif;
 }
-#author-name {
+#testimonial-author-name {
   padding-bottom: 33px;
   font-family: "Poppins", sans-serif;
 }
@@ -66,7 +66,7 @@
   left: 30px;
 }
 
-#button-left-icon {
+#testimonial-button-left-icon {
   position: absolute;
   left: -35px;
   top: 100px;
@@ -77,7 +77,7 @@
   padding: 20px;
 }
 
-#button-right-icon {
+#testimonial-button-right-icon {
   position: absolute;
   right: -35px;
   top: 100px;
@@ -88,7 +88,7 @@
   padding: 20px;
 }
 
-.rectangle-lines {
+.testimonial-rectangle-lines {
   padding-top: 33px;
   padding-bottom: 66px;
   color: #181e4b;
@@ -101,13 +101,13 @@
   color: #df6951;
 }
 
-#hat-pic {
+#testimonial-hat-pic {
   position: absolute;
   left: 0px;
   bottom: 0px;
 }
 
-#shell-pic {
+#testimonial-shell-pic {
   position: absolute;
   left: 10%;
   transform: translateY(-5rem);
@@ -115,7 +115,7 @@
   width: 160px;
 }
 
-#pic-pic {
+#testimonial-pic-pic {
   position: absolute;
   right: 8%;
   top: -90px;
@@ -126,19 +126,19 @@
   .testimonial-div {
     width: 70%;
   }
-  .title-head-big {
+  .testimonial-title-head-big {
     font-size: 28px;
   }
 
-  .title-head-small {
+  .testimonial-title-head-small {
     padding-top: 50px;
   }
 
-  #shell-pic {
+  #testimonial-shell-pic {
     left: 10px;
   }
 
-  #pic-pic {
+  #testimonial-pic-pic {
     position: absolute;
     right: 10px;
   }
