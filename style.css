@@ -1,0 +1,135 @@
+.Tour-Packages-title-one{
+    color: #DF6951;
+    font-size: 18px;
+    width: 80px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+}
+
+.Tour-Packages-title-two{
+    color: #181E4B;
+    font-family: "Volkhov",sans-serif;
+    font-size: 50px;
+    width: 640px;
+    height: 142px;
+    margin: auto;
+    text-align: center;
+}
+
+.Tour-Packages{
+    display: flex;
+    width: 1381px;
+    height: 697px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.Tour-Packages-Cards{
+    width: 395px;
+    height: 697px;
+    margin: auto;
+}
+
+.Tour-Packages-Card{
+    display: flex;
+    margin-top: 2px;
+    height: 312px;
+    width: 390px;
+}
+.City-İmage{
+    width: 393px;
+    height: 313px;
+    position: absolute;
+}
+
+.Tour-Packages-Card-information{
+   display: flex;
+   align-items: center;
+   gap: 60px;
+   color: rgba(125,125,125,1);
+   margin-top: 30px;
+   font-family: "Poppins",sans-serif;
+}
+
+.Tour-Packages-Card-information div{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.Country-Flag{
+    position: relative;
+    margin-left: 15px;
+    transform: translateY(266px);
+    height: 120px;
+    width: 120px;
+}
+
+.Tour-Packages-Card-City{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+    font-family: "Poppins",sans-serif;
+}
+
+.Tour-Packages-Card-Country{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: rgba(125,125,125,1);
+    font-family: "Poppins",sans-serif;
+}
+
+.Tour-Packages-Card-Price{
+    display: flex;
+    font-family: "Poppins",sans-serif;
+    margin-top: 10px;
+    align-items: center;
+    gap: 15px;
+}
+
+.Tour-Packages-Card-Price p{
+  color:#DF6951;
+  width: 100px;
+  height: 45px;
+  font-size: 30px;
+}
+
+.Tour-Packages-Card-Price s{
+   color:#7D7D7D ;
+   width: 75px;
+   height: 34px;
+   font-size: 22px;
+}
+
+.Tour-Packages-Card-Btn{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: #DF6951;
+    margin-top: 30px;
+    text-align: center;
+    width: 130px;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    font-size: 12px;
+}
+
+.Tour-Packages-Card-Text{
+    font-family: "Poppins",sans-serif;
+    font-size: 13px;
+}
+.Hometour-two{
+    width: 395px;
+    height: 697px;
+    margin: auto;
+}
+
+.Hometour-three{
+    width: 395px;
+    height: 697px;
+    margin: auto;
+}
