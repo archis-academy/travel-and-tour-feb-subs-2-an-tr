@@ -4,6 +4,7 @@ header {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
+
 .hero-image-container {
   background-image: url("../images/homepage-background.png");
   background-size: cover;
@@ -30,10 +31,10 @@ header {
 }
 .hero-nav-list a:hover {
   color: #df6951;
+  transition: 0.3s;
 }
 #page-2-home:target #home-link {
   border-bottom: 3px solid #df6951;
-
   border-radius: 3px;
 }
 .hero-nav-list img {
@@ -48,9 +49,14 @@ header {
   width: 229px;
   height: 188px;
   position: absolute;
-  margin-left: 130px;
   font-weight: 300;
+  display: none;
 }
+
+.hero-dropdown-link:hover .hero-dropdown-menu {
+  display: block;
+}
+
 .hero-dropdown-menu ul {
   padding: 37px 25px 15px 12px;
 }
@@ -61,7 +67,6 @@ header {
 
 .hero-btn-orange {
   padding: 13px;
-
   border-radius: 7px;
   background-color: #df6951;
 }
@@ -147,23 +152,5 @@ header {
   margin-top: -180px;
   margin-left: 15px;
 }
-.hero-partners {
-  padding: 50px;
-  display: flex;
-  justify-content: space-around;
-  background-color: #f7f7f7;
-}
-.hero-partners img {
-  height: 40px;
-  filter: grayscale(100%);
-}
-.hero-partners img:nth-child(2) {
-  opacity: 0.8;
-}
-.hero-partners img:nth-child(4) {
-  opacity: 0.6;
-}
-.hero-partners img:nth-child(5) {
-  opacity: 0.6;
-}
+
 /* Sebile/Beginning of Homepage-Hero-Section */

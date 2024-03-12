@@ -6,6 +6,59 @@
     <title>Tour and Travel</title>
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/shared.css" />
+
+    <style>
+      @media (max-width: 760px) {
+        header {
+          font-size: 1em;
+        }
+        #travel-logo {
+          width: 110px;
+        }
+        .hero-top-Navbar {
+          margin-bottom: 60px;
+          justify-content: space-around;
+        }
+        .hero-nav-link {
+          gap: 15px;
+        }
+        .hero-btn-orange {
+          display: none;
+        }
+        .hero-context-container {
+          text-align: center;
+          margin-bottom: 50px;
+        }
+        .homepage-title {
+          width: 100%;
+          font-size: 25px;
+        }
+        .searching-tools {
+          display: none;
+        }
+        .hero-clients {
+          display: none;
+        }
+
+        #hero-scroll-image {
+          display: none;
+        }
+      }
+      @media (max-width: 600px) {
+        header {
+          font-size: 0.5em;
+        }
+        .hero-dropdown-link img {
+          width: 7px;
+        }
+        #page-2-home:target #home-link {
+          border-bottom: 1px solid #df6951;
+        }
+        #travel-logo {
+          width: 70px;
+        }
+      }
+    </style>
   </head>
   <body>
     <!-- Sebile/Beginning of Homepage-Hero-Section  -->
@@ -21,22 +74,22 @@
                 >
               </li>
               <li><a class="hero-nav-list-item" href="#about">About</a></li>
-              <li>
+              <li class="hero-dropdown-link">
                 <a class="hero-nav-list-item" href="#services">Services</a>
                 <img src="./images/Vector-2.png" />
+                <div class="hero-dropdown-menu">
+                  <ul>
+                    <li>Honeymoon Packages</li>
+                    <li>Tours Packages</li>
+                    <li>Musical Events</li>
+                    <li>Build Package</li>
+                  </ul>
+                </div>
               </li>
               <li>
                 <a class="hero-nav-list-item" href="#">Upcomming Packages</a>
               </li>
             </ul>
-            <div class="hero-dropdown-menu">
-              <ul>
-                <li>Honeymoon Packages</li>
-                <li>Tours Packages</li>
-                <li>Musical Events</li>
-                <li>Build Package</li>
-              </ul>
-            </div>
           </nav>
           <a href="#" class="hero-btn-orange">Get in Touch</a>
         </div>
@@ -109,13 +162,6 @@
         src="images/scroll.png"
         alt="scroll-picture"
       />
-      <div class="hero-partners">
-        <img src="images/image 909.png" alt="fly-emirates-logo" />
-        <img src="images/partners-logo5.png" alt="" />
-        <img src="images/partner-logo4.png" alt="" />
-        <img src="images/partner-logo1.png" alt="" />
-        <img src="images/partner-logo2.png" alt="" />
-      </div>
     </header>
 
     <!-- Sebile/End of Homepage-Hero-Section -->
