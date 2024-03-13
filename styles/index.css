@@ -1,3 +1,26 @@
+/* <!-- Yasir TR-2 Homepage Partners Section Start --> */
+.partners-container {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  padding: 70px 0;
+}
+
+.partners-img-wrapper {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.partner-img {
+  width: 150px;
+  filter: grayscale(100%);
+}
+/* <!-- Yasir TR-2 Homepage Partners Section End --> */
+
 /* <!-- Top-Harutyun Kalataş TR-7-Homepage-Europe-Sightseeing --> */
 .europe-sightseeing-tours {
   max-width: 1300px;
