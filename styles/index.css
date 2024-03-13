@@ -1,3 +1,4 @@
+/* <!-- Yasir TR-2 Homepage Partners Section Start --> */
 .partners-container {
   background-color: #f7f7f7;
   display: flex;
@@ -18,3 +19,64 @@
   width: 150px;
   filter: grayscale(100%);
 }
+/* <!-- Yasir TR-2 Homepage Partners Section End --> */
+
+/* <!-- Top-Harutyun Kalataş TR-7-Homepage-Europe-Sightseeing --> */
+.europe-sightseeing-tours {
+  max-width: 1300px;
+  height: auto;
+  margin: 100px auto;
+  flex-wrap: wrap;
+}
+.europe-sightseeing-tours {
+  position: relative;
+}
+.es-left-cta {
+  background-color: #df6951;
+  border-radius: 10px;
+  padding: 21px 29px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  margin-top: 35px;
+  gap: 10px;
+}
+.es-left-title {
+  margin: 5px 0;
+  font-size: 50px;
+  font-family: "Volkhov", serif;
+  color: #181e4b;
+  line-height: 71px;
+}
+.es-left-subtitle {
+  font-family: "Poppins", sans-serif;
+  color: #df6951;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 1px;
+}
+
+.es-left-description {
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+  width: 600px;
+  line-height: 26px;
+}
+
+.es-destinations {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 60px;
+  margin-top: 60px;
+}
+.eifel-dest {
+  position: absolute;
+  z-index: -1;
+  right: -210px;
+  bottom: -65px;
+}
+
+/* <!-- Bottom-Harutyun Kalataş TR-7-Homepage-Europe-Sightseeing --> */
