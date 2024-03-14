@@ -1,8 +1,6 @@
 .Tour-Packages-title-one{
     color: #DF6951;
     font-size: 18px;
-    width: 80px;
-    height: 30px;
     margin: auto;
     text-align: center;
     font-family: "Poppins",sans-serif;
@@ -12,36 +10,32 @@
     color: #181E4B;
     font-family: "Volkhov",sans-serif;
     font-size: 50px;
-    width: 640px;
-    height: 142px;
     margin: auto;
     text-align: center;
 }
 
 .Tour-Packages{
     display: flex;
-    width: 1381px;
-    height: 697px;
+    flex-wrap: wrap;
+    max-width: 1381px;
     margin: auto;
     margin-top: 15px;
 }
 
 .Tour-Packages-Cards{
     width: 395px;
-    height: 697px;
     margin: auto;
 }
 
 .Tour-Packages-Card{
     display: flex;
     margin-top: 2px;
-    height: 312px;
     width: 390px;
 }
 .City-İmage{
     width: 393px;
     height: 313px;
-    position: absolute;
+    position: relative;
 }
 
 .Tour-Packages-Card-information{
@@ -60,7 +54,7 @@
 }
 
 .Country-Flag{
-    position: relative;
+    position: absolute;
     margin-left: 15px;
     transform: translateY(266px);
     height: 120px;
