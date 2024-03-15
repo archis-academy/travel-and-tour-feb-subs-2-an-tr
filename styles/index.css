@@ -1,3 +1,60 @@
+/* <!-- Salih TR-5 Homepage-Favorite-Resorts Start --> */
+.section-books {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.books-title {
+  color: #181e4b;
+  font-weight: 700;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  line-height: 64px;
+}
+
+.books-subtitle {
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  color: #df6951;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.books-icon {
+  width: 47px;
+  height: 48px;
+}
+
+.books-text-container {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+.books-text {
+  display: flex;
+  color: #5e6282;
+  flex-direction: column;
+}
+
+.books-text-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.books-text-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.books-image-trip {
+  width: 100%;
+}
+/* <!-- Salih TR-5 Homepage-Favorite-Resorts end --> */
+
 /* <!-- TR-6-Homepage-Liberty-Banner - Salih--> */
 .liberty-container {
   background-image: url("../images/liberty-statue-img.png");
