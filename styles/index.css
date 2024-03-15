@@ -1,3 +1,63 @@
+/* <!-- TR-6-Homepage-Liberty-Banner - Salih--> */
+.liberty-container {
+  background-image: url("../images/liberty-statue-img.png");
+  background-size: cover;
+  min-height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.liberty-context {
+  display: flex;
+  max-width: 640px;
+  flex-direction: column;
+  margin-left: 15%;
+  position: relative;
+}
+
+.in-image {
+  position: absolute;
+  bottom: -30%;
+  right: -10%;
+}
+
+.liberty-text {
+  font-size: 50px;
+  line-height: 64.5px;
+  color: white;
+  font-family: "Volkhov", serif;
+}
+
+@media (max-width: 725px) {
+  .liberty-context {
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 650px) {
+  .liberty-text {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .in-image {
+    width: 150px;
+    bottom: -15%;
+  }
+}
+
+@media (max-width: 450px) {
+  .in-image {
+    width: 150px;
+    bottom: -15%;
+    right: 0;
+  }
+}
+/* <!-- TR-6-Homepage-Liberty-Banner - Salih end--> */
+
 /* <!-- Yasir TR-2 Homepage Partners Section Start --> */
 .partners-container {
   background-color: #f7f7f7;
