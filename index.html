@@ -6,70 +6,26 @@
     <title>Tour and Travel</title>
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/shared.css" />
-
-    <style>
-      @media (max-width: 760px) {
-        header {
-          font-size: 1em;
-        }
-        #travel-logo {
-          width: 110px;
-        }
-        .hero-top-Navbar {
-          margin-bottom: 60px;
-          justify-content: space-around;
-        }
-        .hero-nav-link {
-          gap: 15px;
-        }
-        .hero-btn-orange {
-          display: none;
-        }
-        .hero-context-container {
-          text-align: center;
-          margin-bottom: 50px;
-        }
-        .homepage-title {
-          width: 100%;
-          font-size: 25px;
-        }
-        .searching-tools {
-          display: none;
-        }
-        .hero-clients {
-          display: none;
-        }
-
-        #hero-scroll-image {
-          display: none;
-        }
-      }
-      @media (max-width: 600px) {
-        header {
-          font-size: 0.5em;
-        }
-        .hero-dropdown-link img {
-          width: 7px;
-        }
-        #page-2-home:target #home-link {
-          border-bottom: 1px solid #df6951;
-        }
-        #travel-logo {
-          width: 70px;
-        }
-      }
-    </style>
   </head>
   <body>
     <!-- Sebile/Beginning of Homepage-Hero-Section  -->
-    <header id="page-2-home">
+    <header>
       <div class="hero-image-container">
         <div class="hero-top-Navbar">
-          <img src="images/logo.png" id="travel-logo" alt="logo-image" />
+          <div class="logo-container">
+            <img
+              id="menuBtn"
+              src="./images/menu_FILL0_wght400_GRAD0_opsz24.png"
+              alt=""
+            />
+            <img src="images/logo.png" id="travel-logo" alt="logo-image" />
+          </div>
           <nav class="hero-navbar">
             <ul class="hero-nav-list">
               <li>
-                <a class="hero-nav-list-item" id="home-link" href="#page-2-home"
+                <a
+                  class="hero-nav-list-item header-active-link"
+                  href="index.html"
                   >Home</a
                 >
               </li>
@@ -152,9 +108,9 @@
           </div>
         </div>
         <div class="rectangle-lines">
-          <a id="hero-line-1" href="#page-1">___</a>
-          <a id="hero-line-2" href="#page-2-home">___</a>
-          <a id="hero-line-3" href="#page-3">___</a>
+          <a href="#">___</a>
+          <a class="active-line" href="#">___</a>
+          <a href="#">___</a>
         </div>
       </div>
       <img
@@ -163,7 +119,7 @@
         alt="scroll-picture"
       />
     </header>
-
+    <script src="app.js"></script>
     <!-- Sebile/End of Homepage-Hero-Section -->
   </body>
 </html>
