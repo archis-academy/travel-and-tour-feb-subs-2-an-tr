@@ -5,13 +5,13 @@
 .testimonial-container {
   background-color: #f8f8f8;
   margin-top: 200px;
-  /* REDUCE THIS TOP MARGIN LATER */
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
   width: 100%;
   margin-bottom: 200px;
+  border: #181e4b 5px solid;
 }
 
 .testimonial-title-head-small {
@@ -124,7 +124,7 @@
 
 @media (max-width: 500px) {
   .testimonial-div {
-    width: 70%;
+    width: 80%;
   }
   .testimonial-title-head-big {
     font-size: 28px;
