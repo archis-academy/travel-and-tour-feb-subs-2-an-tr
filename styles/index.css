@@ -1,3 +1,4 @@
+/* <!-- Orujhimaru/TR-3-Homepage-Best-Services --> */
 .services-section{
   text-align: center;
 }
@@ -83,3 +84,375 @@
   left: -20px;
   top: 185px;
 }
+/* <!-- Orujhimaru/TR-3-Homepage-Best-Services END --> */
+
+/* <!-- Salih TR-11 Homepage-Footer start --> */
+.footer-all {
+  display: flex;
+  margin-top: 70px;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 90px;
+  flex-wrap: wrap;
+}
+
+.travel-text {
+  font-size: 31.62px;
+  font-family: "Volkhov", serif;
+  position: relative;
+  line-height: 40px;
+  color: #181433;
+}
+
+.travel-logo {
+  margin-top: -35px;
+}
+
+.travel-paragraph {
+  color: #757095;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Manrope", serif;
+}
+
+.social-icon {
+  margin-top: 25px;
+  display: flex;
+  gap: 17px;
+}
+
+.company-title {
+  font-size: 21px;
+  line-height: 24px;
+  font-family: "Manrope", serif;
+  color: #181433;
+  margin-bottom: 20px;
+}
+
+.company-list {
+  font-family: "Manrope", serif;
+  color: #181433;
+  margin-top: 20px;
+}
+
+.company-list li {
+  margin-bottom: 20px;
+}
+
+.destinations-title {
+  font-size: 21px;
+  line-height: 24px;
+  font-family: "Manrope", serif;
+  color: #181433;
+  margin-bottom: 20px;
+}
+
+.destinations-list {
+  font-family: "Manrope", serif;
+  color: #181433;
+  margin-top: 20px;
+}
+
+.destinations-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #181433;
+}
+
+.newsletter-section {
+  line-height: 24px;
+  font-family: "Manrope", serif;
+  color: #181433;
+  margin-bottom: 20px;
+}
+
+.newsletter-text {
+  margin-top: 20px;
+  font-size: 21px;
+}
+
+.mail-input {
+  display: flex;
+  margin-top: 20px;
+}
+
+.email-type {
+  background-color: #eeeeff;
+  padding: 15px;
+  max-width: 250px;
+  width: 100%;
+  border: none;
+}
+
+input::placeholder {
+  opacity: 0.4;
+  font-family: "Manrope", serif;
+}
+
+.button-type {
+  padding: 10px 32px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #df6951;
+  font-family: "Manrope", serif;
+  line-height: 26px;
+}
+
+.send-text {
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 15px;
+  font-family: "Manrope", serif;
+  color: #181433;
+}
+
+.line {
+  margin-top: 35px;
+  max-width: 1200px;
+  width: 100%;
+  height: 2px;
+  background-color: #e5e5ea;
+}
+
+.Copyright {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Manrope", serif;
+  color: #181433;
+}
+
+.footer-img {
+  position: absolute;
+  right: 0;
+  bottom: -50%;
+  z-index: -1;
+}
+
+@media (max-width: 400px) {
+  .footer-container {
+    justify-content: flex-start;
+    padding: 5px;
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .mail-input {
+    flex-wrap: wrap;
+  }
+
+  .button-type {
+    margin-top: 10px;
+  }
+}
+/* <!-- Salih TR-11 Homepage-Footer end --> */
+
+/* <!-- Salih TR-5 Homepage-Favorite-Resorts Start --> */
+.section-books {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.books-title {
+  color: #181e4b;
+  font-weight: 700;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  line-height: 64px;
+}
+
+.books-subtitle {
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  color: #df6951;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.books-icon {
+  width: 47px;
+  height: 48px;
+}
+
+.books-text-container {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+.books-text {
+  display: flex;
+  color: #5e6282;
+  flex-direction: column;
+}
+
+.books-text-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.books-text-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.books-image-trip {
+  width: 100%;
+}
+/* <!-- Salih TR-5 Homepage-Favorite-Resorts end --> */
+
+/* <!-- TR-6-Homepage-Liberty-Banner - Salih--> */
+.liberty-container {
+  background-image: url("../images/liberty-statue-img.png");
+  background-size: cover;
+  min-height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.liberty-context {
+  display: flex;
+  max-width: 640px;
+  flex-direction: column;
+  margin-left: 15%;
+  position: relative;
+}
+
+.in-image {
+  position: absolute;
+  bottom: -30%;
+  right: -10%;
+}
+
+.liberty-text {
+  font-size: 50px;
+  line-height: 64.5px;
+  color: white;
+  font-family: "Volkhov", serif;
+}
+
+@media (max-width: 725px) {
+  .liberty-context {
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 650px) {
+  .liberty-text {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .in-image {
+    width: 150px;
+    bottom: -15%;
+  }
+}
+
+@media (max-width: 450px) {
+  .in-image {
+    width: 150px;
+    bottom: -15%;
+    right: 0;
+  }
+}
+/* <!-- TR-6-Homepage-Liberty-Banner - Salih end--> */
+
+/* <!-- Yasir TR-2 Homepage Partners Section Start --> */
+.partners-container {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  padding: 70px 0;
+}
+
+.partners-img-wrapper {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.partner-img {
+  width: 150px;
+  filter: grayscale(100%);
+}
+/* <!-- Yasir TR-2 Homepage Partners Section End --> */
+
+/* <!-- Top-Harutyun Kalataş TR-7-Homepage-Europe-Sightseeing --> */
+.europe-sightseeing-tours {
+  max-width: 1300px;
+  height: auto;
+  margin: 100px auto;
+  flex-wrap: wrap;
+}
+.europe-sightseeing-tours {
+  position: relative;
+}
+.es-left-cta {
+  background-color: #df6951;
+  border-radius: 10px;
+  padding: 21px 29px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  margin-top: 35px;
+  gap: 10px;
+}
+.es-left-title {
+  margin: 5px 0;
+  font-size: 50px;
+  font-family: "Volkhov", serif;
+  color: #181e4b;
+  line-height: 71px;
+}
+.es-left-subtitle {
+  font-family: "Poppins", sans-serif;
+  color: #df6951;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 1px;
+}
+
+.es-left-description {
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+  width: 600px;
+  line-height: 26px;
+}
+
+.es-destinations {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 60px;
+  margin-top: 60px;
+}
+.eifel-dest {
+  position: absolute;
+  z-index: -1;
+  right: -210px;
+  bottom: -65px;
+}
+
+/* <!-- Bottom-Harutyun Kalataş TR-7-Homepage-Europe-Sightseeing --> */
