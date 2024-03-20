@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Volkhov:wght@400;700&display=swap");
 
+
 * {
   margin: 0;
   padding: 0;
@@ -17,4 +18,90 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.hero-top-Navbar {
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 150px auto;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 15px;
+}
+#menuBtn {
+  display: none;
+  filter: invert(100%);
+  padding-bottom: 17px;
+  width: 30px;
+}
+.hero-nav-list {
+  display: flex;
+  gap: 25px;
+}
+.hero-nav-list a {
+  padding-bottom: 3px;
+}
+.hero-nav-list a:hover {
+  color: #df6951;
+  transition: 0.3s;
+}
+.header-active-link {
+  border-bottom: 3px solid #df6951;
+  border-radius: 3px;
+}
+.hero-nav-list img {
+  margin-left: 3px;
+  width: 12px;
+}
+.hero-navbar {
+  position: relative;
+}
+.hero-dropdown-menu {
+  background-image: url(../images/popup-cloud.png);
+  width: 229px;
+  height: 188px;
+  position: absolute;
+  font-weight: 300;
+  display: none;
+}
 
+.hero-dropdown-link:hover .hero-dropdown-menu {
+  display: block;
+}
+
+.hero-dropdown-menu ul {
+  padding: 37px 25px 15px 12px;
+}
+.hero-dropdown-menu ul li {
+  padding: 4px;
+  font-weight: 100;
+}
+
+.hero-btn-orange {
+  padding: 13px;
+  border-radius: 7px;
+  background-color: #df6951;
+}
+.about-header{ 
+ background-image: url("../images/about/about-header-img.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 1920px;
+ height: 766px;
+ padding-top: 30px;
+ padding-bottom: 50px;
+ color: white;
+}
+.read{
+  text-align: center;
+  font-family:"Poppins",serif ;
+  left: 918px;
+}
+.about-us{
+  text-align: center;
+  font-family: "Yesteryear",serif;
+  font-size: 157px;
+}
